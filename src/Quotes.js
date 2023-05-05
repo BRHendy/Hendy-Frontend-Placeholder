@@ -29,7 +29,7 @@ export default class Quotes extends Component {
     {
         return (
             <p>{this.state?.quote}<br />
-                - {this.state?.person}</p>
+                &emsp;- {this.state?.person}</p>
         )
     }
 };
