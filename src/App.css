@@ -2,3 +2,24 @@ p {
     margin-left: 10px;
     text-indent: -8px;
 }
+
+.App {
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
+
+.Footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    color: #444444;
+}

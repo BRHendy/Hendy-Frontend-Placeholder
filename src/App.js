@@ -13,12 +13,18 @@ import React from 'react'
 import Quotes from './Quotes';
 
 import './App.css';
+import Footer from './Footer';
 
 function App() {
     return (
-        <div className="App">
-            <h1>Hendy.ca </h1>
-            <Quotes />
+        <div>
+            <div className="App">
+                <h1>Hendy.ca </h1>
+                <Quotes />
+            </div>
+            <div className="Footer">
+                <Footer />
+            </div>
         </div>
     );
 }

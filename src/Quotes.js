@@ -21,17 +21,17 @@ export default class Quotes extends Component {
             { quote: "Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.", person: "Archimedes" },
             { quote: "It is impossible to be a mathematician without being a poet in soul.", person: "Sofia Kovalevskaya" },
             { quote: "I was taught that the way of progress was neither swift nor easy.", person: "Marie Curie" },
-            { quote: "All sorts of things can happen when you’re open to new ideas and playing around with things.", person: "Stephanie Kwolek" },
-            { quote: "As always in life, people want a simple answer... and it’s always wrong.", person: "Susan Greenfield" },
-            { quote: "I didn’t want just to know the names of things. I remember really wanting to know how it all worked.", person: "Elizabeth Blackburn" }
+            { quote: "All sorts of things can happen when you're open to new ideas and playing around with things.", person: "Stephanie Kwolek" },
+            { quote: "As always in life, people want a simple answer... and it's always wrong.", person: "Susan Greenfield" },
+            { quote: "I didn't want just to know the names of things. I remember really wanting to know how it all worked.", person: "Elizabeth Blackburn" }
         ]
     }
     componentDidMount() {
         const len = this.quotes.length
         const randomIndex = Math.floor(Math.random() * 100) % len
         this.setState({
-            quote: this.quotes[randomIndex % len].quote,
-            person: this.quotes[randomIndex % len].person
+            quote: this.quotes[randomIndex].quote,
+            person: this.quotes[randomIndex].person
         })
     }
 
