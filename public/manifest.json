@@ -1,8 +1,11 @@
+// (c) 2023 Brian Henderson
+// This code is licensed under MIT license (see LICENSE.txt for details)
+
 {
   "short_name": "Hendy.ca",
   "name": "Hendy.ca",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#444444",
   "background_color": "#eeeeee"
 }
